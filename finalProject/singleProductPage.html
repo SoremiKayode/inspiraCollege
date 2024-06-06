@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div id="imageBox">
+            <img src="images/logocodeignite.png" alt="Logo">
+            <h3>CodeCommerce</h3>
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <div class="menu-dropdown">
+                <span>Products</span>
+                <div class="menu-dropdown-content">
+                    <a href="#">Fashion</a>
+                    <a href="#">Technology</a>
+                    <a href="#">Consumables</a>
+                </div>
+            </div>
+            <a href="#">Contact</a>
+        </nav>
+        <div class="search-box">
+            <input type="text" placeholder="Search...">
+        </div>
+        <div class="cart-icon">
+            <i class="fas fa-shopping-cart"></i>
+            <div class="cart-dropdown">
+                <ul>
+                    <li>Product 1</li>
+                    <li>Product 2</li>
+                    <li><a href="shoppingCartPage.html">View Cart</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="container2">
+        <div class="product-details-container">
+            <div class="thumbnails">
+                <img src="images/thumbnail1.jpg" alt="Thumbnail 1">
+                <img src="images/thumbnail2.jpg" alt="Thumbnail 2">
+                <img src="images/thumbnail3.jpg" alt="Thumbnail 3">
+            </div>
+            <div class="main-image">
+                <img src="images/product1.jpg" alt="Main Image">
+            </div>
+            <div class="product-details">
+                <h2>Product Title</h2>
+                <p class="price">$99.99</p>
+                <p class="shipping-price">Shipping: Free</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+        
+        <div class="product-description">
+            <h2>Product Description</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non urna nec nisl scelerisque feugiat et a metus. Nam auctor velit vitae erat gravida, sit amet ultrices justo convallis. Mauris et nulla vitae ipsum scelerisque bibendum.</p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-section">
+            <div id="imageBox">
+                <img src="images/logocodeignite.png" alt="Logo">
+                <h3>CodeCommerce</h3>
+            </div>
+        </div>
+        <div class="footer-section">
+            <h2>Pages</h2>
+            <nav>
+                <a href="index.html">Home</a><br>
+                <a href="#">Fashion</a><br>
+                <a href="#">Technology</a><br>
+                <a href="#">Consumables</a><br>
+                <a href="#">Contact</a>
+            </nav>
+        </div>
+        <div class="footer-section">
+            <h2>Contact Us</h2>
+            <form>
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="Your Email">
+                <textarea placeholder="Your Message"></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </footer>
+</body>
+</html>

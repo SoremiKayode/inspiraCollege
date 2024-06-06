@@ -1,0 +1,207 @@
+<!DOCTYPE html> <!-- Defines the document type and version of HTML -->
+<html lang="en"> <!-- Root element of the HTML document with language attribute set to English -->
+<head>
+    <meta charset="UTF-8"> <!-- Sets the character encoding to UTF-8 for the document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Sets the viewport to make the website responsive on different devices -->
+    <title>Homepage</title> <!-- Sets the title of the webpage, displayed on the browser tab -->
+    <link rel="stylesheet" href="styles.css"> <!-- Links an external CSS file for styling the HTML elements -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> <!-- Links an external JavaScript file for FontAwesome icons -->
+</head>
+<body>
+    <!-- Header section of the webpage -->
+    <header>
+        <!-- Container for the logo and site title -->
+        <div id="imageBox">
+            <img src="images/logocodeignite.png" alt="Logo"> <!-- Displays the logo image -->
+            <h3>CodeCommerce</h3> <!-- Site title displayed as a heading -->
+        </div>
+        <!-- Navigation menu -->
+        <nav>
+            <a href="index.html">Home</a> <!-- Link to the homepage -->
+            <div class="menu-dropdown"> <!-- Dropdown menu for products -->
+                <span>Products</span> <!-- Trigger for the dropdown menu -->
+                <div class="menu-dropdown-content"> <!-- Container for dropdown items -->
+                    <a href="#">Fashion</a> <!-- Link to fashion products -->
+                    <a href="#">Technology</a> <!-- Link to technology products -->
+                    <a href="#">Consumables</a> <!-- Link to consumable products -->
+                </div>
+            </div>
+            <a href="#">Contact</a> <!-- Link to the contact page -->
+        </nav>
+        <!-- Search box -->
+        <div class="search-box">
+            <input type="text" placeholder="Search..."> <!-- Input field for search functionality -->
+        </div>
+        <!-- Shopping cart icon and dropdown -->
+        <div class="cart-icon">
+            <i class="fas fa-shopping-cart"></i> <!-- FontAwesome shopping cart icon -->
+            <div class="cart-dropdown"> <!-- Dropdown content for the cart -->
+                <ul>
+                    <li>Product 1</li> <!-- List item for product 1 -->
+                    <li>Product 2</li> <!-- List item for product 2 -->
+                    <li><a href="shoppingCartPage.html">View Cart</a></li> <!-- Link to the shopping cart page -->
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- Banner section -->
+    <div class="banner">
+        <img src="images/sensual-black-woman-with-beautiful-wavy-hairs-golden-shiny-dress-posing-full-length.jpg" alt="Banner"> <!-- Banner image -->
+        <h2>Explore our Fashion Collection, from top Brand across the Globe</h2> <!-- Banner headline -->
+    </div>
+
+    <!-- Main content container -->
+    <div class="container">
+        <!-- Fashion section -->
+        <h2 class="section-title">Fashion</h2> <!-- Section title for fashion products -->
+        <!-- Individual product listings -->
+        <div class="product">
+            <img src="https://via.placeholder.com/150" alt="Product 1"> <!-- Placeholder image for product 1 -->
+            <h3>Fashion Product 1</h3> <!-- Product name -->
+            <p>$10.00</p> <!-- Product price -->
+            <button>Add to Cart</button> <!-- Button to add product to cart -->
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/150" alt="Product 2"> <!-- Placeholder image for product 2 -->
+            <h3>Fashion Product 2</h3> <!-- Product name -->
+            <p>$20.00</p> <!-- Product price -->
+            <button>Add to Cart</button> <!-- Button to add product to cart -->
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/150" alt="Product 3"> <!-- Placeholder image for product 3 -->
+            <h3>Fashion Product 3</h3> <!-- Product name -->
+            <p>$30.00</p> <!-- Product price -->
+            <button>Add to Cart</button> <!-- Button to add product to cart -->
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/150" alt="Product 4"> <!-- Placeholder image for product 4 -->
+            <h3>Fashion Product 4</h3> <!-- Product name -->
+            <p>$40.00</p> <!-- Product price -->
+            <button>Add to Cart</button> <!-- Button to add product to cart -->
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/150" alt="Product 5"> <!-- Placeholder image for product 5 -->
+            <h3>Fashion Product 5</h3> <!-- Product name -->
+            <p>$50.00</p> <!-- Product price -->
+            <button>Add to Cart</button> <!-- Button to add product to cart -->
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/150" alt="Product 6"> <!-- Placeholder image for product 6 -->
+            <h3>Fashion Product 6</h3> <!-- Product name -->
+            <p>$60.00</p> <!-- Product price -->
+            <button>Add to Cart</button> <!-- Button to add product to cart -->
+        </div>
+
+        <!-- Technology section -->
+        <h2 class="section-title">Technology</h2> <!-- Section title for technology products -->
+        <div class="product">
+            <img src="https://via.placeholder.com/150" alt="Product 7"> <!-- Placeholder image for product 7 -->
+            <h3>Tech Product 1</h3> <!-- Product name -->
+            <p>$100.00</p> <!-- Product price -->
+            <button>Add to Cart</button> <!-- Button to add product to cart -->
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/150" alt="Product 8"> <!-- Placeholder image for product 8 -->
+            <h3>Tech Product 2</h3> <!-- Product name -->
+            <p>$200.00</p> <!-- Product price -->
+            <button>Add to Cart</button> <!-- Button to add product to cart -->
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/150" alt="Product 9"> <!-- Placeholder image for product 9 -->
+            <h3>Tech Product 3</h3> <!-- Product name -->
+            <p>$300.00</p> <!-- Product price -->
+            <button>Add to Cart</button> <!-- Button to add product to cart -->
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/150" alt="Product 10"> <!-- Placeholder image for product 10 -->
+            <h3>Tech Product 4</h3> <!-- Product name -->
+            <p>$400.00</p> <!-- Product price -->
+            <button>Add to Cart</button> <!-- Button to add product to cart -->
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/150" alt="Product 11"> <!-- Placeholder image for product 11 -->
+            <h3>Tech Product 5</h3> <!-- Product name -->
+            <p>$500.00</p> <!-- Product price -->
+            <button>Add to Cart</button> <!-- Button to add product to cart -->
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/150" alt="Product 12"> <!-- Placeholder image for product 12 -->
+            <h3>Tech Product 6</h3> <!-- Product name -->
+            <p>$600.00</p> <!-- Product price -->
+            <button>Add to Cart</button> <!-- Button to add product to cart -->
+        </div>
+
+        <!-- Consumables section -->
+        <h2 class="section-title">Consumables</h2> <!-- Section title for consumables products -->
+        <div class="product">
+            <img src="https://via.placeholder.com/150" alt="Product 13"> <!-- Placeholder image for product 13 -->
+            <h3>Consumable 1</h3> <!-- Product name -->
+            <p>$5.00</p> <!-- Product price -->
+            <button>Add to Cart</button> <!-- Button to add product to cart -->
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/150" alt="Product 14"> <!-- Placeholder image for product 14 -->
+            <h3>Consumable 2</h3> <!-- Product name -->
+            <p>$10.00</p> <!-- Product price -->
+            <button>Add to Cart</button> <!-- Button to add product to cart -->
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/150" alt="Product 15"> <!-- Placeholder image for product 15 -->
+            <h3>Consumable 3</h3> <!-- Product name -->
+            <p>$15.00</p> <!-- Product price -->
+            <button>Add to Cart</button> <!-- Button to add product to cart -->
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/150" alt="Product 16"> <!-- Placeholder image for product 16 -->
+            <h3>Consumable 4</h3> <!-- Product name -->
+            <p>$20.00</p> <!-- Product price -->
+            <button>Add to Cart</button> <!-- Button to add product to cart -->
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/150" alt="Product 17"> <!-- Placeholder image for product 17 -->
+            <h3>Consumable 5</h3> <!-- Product name -->
+            <p>$25.00</p> <!-- Product price -->
+            <button>Add to Cart</button> <!-- Button to add product to cart -->
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/150" alt="Product 18"> <!-- Placeholder image for product 18 -->
+            <h3>Consumable 6</h3> <!-- Product name -->
+            <p>$30.00</p> <!-- Product price -->
+            <button>Add to Cart</button> <!-- Button to add product to cart -->
+        </div>
+    </div>
+
+    <!-- Footer section -->
+    <footer>
+        <!-- Footer section for logo and title -->
+        <div class="footer-section">
+            <div id="imageBox">
+                <img src="images/logocodeignite.png" alt="Logo"> <!-- Displays the logo image -->
+                <h3>CodeCommerce</h3> <!-- Site title displayed as a heading -->
+            </div>
+        </div>
+        <!-- Footer section for page links -->
+        <div class="footer-section">
+            <h2>Pages</h2> <!-- Heading for the pages section -->
+            <nav>
+                <a href="index.html">Home</a><br> <!-- Link to the homepage -->
+                <a href="#">Fashion</a><br> <!-- Link to fashion page -->
+                <a href="#">Technology</a><br> <!-- Link to technology page -->
+                <a href="#">Consumables</a><br> <!-- Link to consumables page -->
+                <a href="#">Contact</a> <!-- Link to contact page -->
+            </nav>
+        </div>
+        <!-- Footer section for contact form -->
+        <div class="footer-section">
+            <h2>Contact Us</h2> <!-- Heading for the contact section -->
+            <form>
+                <input type="text" placeholder="Your Name"> <!-- Input field for name -->
+                <input type="email" placeholder="Your Email"> <!-- Input field for email -->
+                <textarea placeholder="Your Message"></textarea> <!-- Text area for message -->
+                <button type="submit">Send</button> <!-- Submit button for the form -->
+            </form>
+        </div>
+    </footer>
+</body>
+</html>

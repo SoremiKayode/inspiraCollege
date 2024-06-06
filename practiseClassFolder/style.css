@@ -1,0 +1,30 @@
+.menuDiv {
+display : flex;
+background-color: crimson;
+color: white;
+font-family: Tahoma;
+padding: 5px;
+}
+
+.menuDiv ul {
+display: flex;
+}
+
+.menuDiv ul li {
+list-style-type: none;
+padding-left: 15px;
+}
+
+.menuDiv ul li a {
+color: white;
+text-decoration: none;
+}
+
+#websiteLogo {
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+#websiteLogo span {
+font-size: larger;
+}
