@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML and CSS Notes</title>
+</head>
+<body>
+
+    <!-- Heading Tags -->
+    <h1>Heading 1</h1> <!-- Main heading, used for primary titles -->
+    <h2>Heading 2</h2> <!-- Secondary heading -->
+    <h3>Heading 3</h3> <!-- Tertiary heading -->
+    <h4>Heading 4</h4> <!-- Quaternary heading -->
+    <h5>Heading 5</h5> <!-- Quinary heading -->
+    <h6>Heading 6</h6> <!-- Senary heading -->
+
+    <!-- Paragraph Tag -->
+    <p>This is a paragraph. It is used to write blocks of text.</p>
+
+    <!-- Anchor Tag -->
+    <a href="https://www.example.com">This is a link</a> <!-- Used for hyperlinks -->
+
+    <!-- Image Tag -->
+    <img src="image.jpg" alt="Description of image"> <!-- Embeds an image -->
+
+    <!-- List Tags -->
+    <!-- Unordered List -->
+    <ul>
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+    </ul>
+
+    <!-- Ordered List -->
+    <ol>
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+    </ol>
+
+    <!-- Table Tag -->
+    <table>
+        <tr>
+            <th>Header 1</th>
+            <th>Header 2</th>
+        </tr>
+        <tr>
+            <td>Data 1</td>
+            <td>Data 2</td>
+        </tr>
+        <tr>
+            <td>Data 3</td>
+            <td>Data 4</td>
+        </tr>
+    </table>
+
+    <!-- Form Tag -->
+    <form action="/submit" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+
+    <!-- Div Tag -->
+    <div>
+        This is a division or section in an HTML document.
+    </div>
+
+    <!-- Span Tag -->
+    <span>This is an inline container used to mark up a part of a text or a part of a document.</span>
+
+</body>
+</html>
