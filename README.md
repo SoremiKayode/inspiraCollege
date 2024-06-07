@@ -1,6 +1,7 @@
-"# inspiraCollege"
+"inspiraCollege"
+
 ***Note***
-To properly view this file, click on code, at the top left
+To properly view this file, click on README.md file, then click on code at the top left.
 
 **How to Acess this file**
 
